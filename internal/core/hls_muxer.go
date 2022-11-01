@@ -24,7 +24,7 @@ import (
 
 const (
 	closeCheckPeriod     = 1 * time.Second
-	closeAfterInactivity = 60 * time.Second
+	closeAfterInactivity = 2 * time.Second
 )
 
 const index = `<!DOCTYPE html>
